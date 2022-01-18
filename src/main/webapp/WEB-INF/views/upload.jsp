@@ -19,10 +19,12 @@
 <link href="/resources/css/styles.css" rel="stylesheet" />
 </head>
 <body>
-	<form action="/upload" method="post">
-	<h1>업로드 페이지</h1>
-	<input type="text" name ="name" placeholder="ID" style ="vertical-align:middle;" >
-	<button type="submit" style ="vertical-align:middle;">upload</button>
+	<form action="/upload" method="post" enctype="multipart/form-data">		
+			<h3>업로드</h3>
+			<input type="text" name ="name" placeholder="ID">
+			<input type="text" name ="info" placeholder="information">
+			<input type="text" name ="price" placeholder="price">
+			<button type="submit">upload</button>
 	</form>
 	
 	<!-- Footer-->
