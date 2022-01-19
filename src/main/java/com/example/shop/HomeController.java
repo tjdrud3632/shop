@@ -43,9 +43,8 @@ public class HomeController {
 	
 	
 	@RequestMapping(value ="/upload", method = RequestMethod.POST)
-	public void upload(String name) {
+	public void upload(String name, String info, String price) {
 		
-		System.out.println(name);
 		
 	}
 	
